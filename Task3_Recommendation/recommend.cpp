@@ -10,13 +10,14 @@ struct Movie {
 
 int main() {
     std::vector<Movie> database = {
-        {"The Dark Knight", "Action"}, {"Inception", "Sci-Fi"},
+        {"The Dark Knight", "Action"}, {"Sherlock Holmes", "Mystery"},
         {"The Hangover", "Comedy"}, {"Interstellar", "Sci-Fi"},
-        {"Avengers: Age of Ultron", "Action"}, {"Red Notice", "Comedy"}
+        {"The Notebook", "Romance"},{"Avengers: Age of Ultron", "Action"}, 
+		{"Zootopia", "Animated"}, {"Regretting You", "Romance"}
     };
 
     std::cout << "--- MOVIE RECOMMENDATION SYSTEM ---" << std::endl;
-    std::cout << "Available Genres: Action, Sci-Fi, Comedy" << std::endl;
+    std::cout << "Available Genres: Action, Sci-Fi, Comedy, Romance, Animated, Mystery" << std::endl;
     
     std::string choice;
     std::cout << "\nEnter your favorite genre: ";
@@ -37,7 +38,7 @@ int main() {
     }
 
     if (!found) {
-        std::cout << "No matches for that genre. However, everyone loves 'Inception' (Sci-Fi)!" << std::endl;
+        std::cout << "No matches for that genre. However, everyone loves 'The Hangover' (Comedy)!" << std::endl;
     }
 
     std::cout << "\nThank you for using our system!" << std::endl;
