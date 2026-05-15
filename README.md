@@ -7,5 +7,5 @@ Goal: To understand basic Natural Language Processing (NLP) and conversation flo
 Task 2: Developed a Tic-Tac-Toe game featuring an AI agent that uses the Minimax Algorithm.  
 Goal: To implement game theory concepts and search algorithms to create an unbeatable AI opponent. 
 
-Task 3: Developed a program that suggests movies or books to users based on their preferred genres.
+Task 3: Developed a program that suggests movies or books to users based on their preferred genres.          
 Goal: To understand and implement Content-Based Filtering logic using data structures to match user preferences with item attributes.
